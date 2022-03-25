@@ -1,4 +1,4 @@
-name: Xcode - Build and Analyze
+ name: Xcode - Build and Analyze
 
  on:
   push:
@@ -6,7 +6,7 @@ name: Xcode - Build and Analyze
   pull_request:
     branches: [ main ]
 
-jobs:
+ jobs:
   build:
     name: Build and analyse default scheme using xcodebuild command
     runs-on: macos-latest
